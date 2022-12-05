@@ -54,3 +54,11 @@ Each variant will have a row with the following columns:
 | HGVS_EFFECT | Most Severe Consequence reported (from hgvs) |
 | HGVS_AAF | Alternative allele frequency (from hgvs) |
 | HGVS_COLOCVAR | rsID of other known variants at same position (from hgvs) |
+
+## Dependencies
+
+If you would like to run this script in your own environment, ensure you have the following packages installed:
+python >= 3.9
+pyvcf >= 0.6.8
+requests >= 2.28.1
+
