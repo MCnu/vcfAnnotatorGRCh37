@@ -1,4 +1,4 @@
-## What is the purpose of this repo?
+## Purpose of this repo
 This repo lets users annotate the variants in a VCF file with GRCh37 hgvs info
 
 Primarily, each variant should be annotated the following information:
@@ -11,7 +11,7 @@ Primarily, each variant should be annotated the following information:
 - Effect of variation (missense, silent, intergenic, etc.)
 - The frequency of each alt allele (by region, as provided by hgvs, if available)
 
-## What does this code do?
+## How this code works
 
 The code can be broken into the following steps:
 
@@ -21,7 +21,7 @@ The code can be broken into the following steps:
 - Variants are annotated with info from pyvcf and hgvs query
 - Each variant and its annotations are output as a row in a tsv file
 
-## How do I use this code?
+## How to use the python script
 
 - Create a conda environment using the vcfAnnotator.yml in the condaEnv folder
 - Activate the environment
@@ -31,7 +31,8 @@ The code can be broken into the following steps:
 python vcfAnnotatorGRCh37.py -i {inputVCFPath} -o {outputTSVPath}
 ```
 
-## What information is containined within the output tsv file?
+## Contents of output tsv
+
 Each variant will have a row with the following columns:
 
 | Column Name | Description |
