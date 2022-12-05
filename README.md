@@ -23,7 +23,7 @@ The code can be broken into the following steps:
 
 ## How to use the python script
 
-- Create a conda environment using the vcfAnnotator.yml in the condaEnv folder
+- Create a conda environment using the vcfAnnotatorGRCh37.yml in the condaEnv folder
 - Activate the environment
 - Navigate to the directory containing vcfAnnotatorGRCh37.py (scripts)
 - Execute the following within your CLI, substituting in your own file paths:
