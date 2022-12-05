@@ -57,7 +57,7 @@ Each variant will have a row with the following columns:
 
 ## Dependencies
 
-If you would like to run this script in your own environment, ensure you have the following packages installed:
+If you would like to run this script in your own environment, ensure you have the following installed:
 - python >= 3.9
 - pyvcf >= 0.6.8
 - requests >= 2.28.1
