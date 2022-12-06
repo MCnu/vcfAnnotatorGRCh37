@@ -55,7 +55,7 @@ Each variant will have a row with the following columns:
 | HGVS_AAF | Alternative allele frequency (from hgvs) |
 | HGVS_COLOCVAR | rsID of other known variants at same position (from hgvs) |
 
-Note: annotations corresponding to individual ALTs are stored as lists
+Note: annotations corresponding to individual ALTs are stored within lists
 
 ## Dependencies
 
