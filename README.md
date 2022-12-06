@@ -5,11 +5,11 @@ Primarily, each variant should be annotated the following information:
 
 - Depth of sequence coverage at the site of variation
 - Number of reads supporting the variant
-- Percentage of reads supporting the variant versus those supporting reference reads
+- Percentage of coverage reads supporting the variant
 - The gene of the variant (if applicable)
 - Type of variation (currently supports: substitution, deletion, insertion, deletion-insertion)
 - Effect of variation (missense, silent, intergenic, etc.)
-- The frequency of each alt allele (by region, as provided by hgvs, if available)
+- The frequency of each ALT allele (by region, as provided by hgvs, if available)
 
 ## How this code works
 
@@ -42,8 +42,8 @@ Each variant will have a row with the following columns:
 | REF | Reference Allele |
 | ALT | List of Alternative Alleles |
 | TOTCOV | Total read coverage of position |
-| VARREADS | List of read count supporting each alt |
-| PERCVARREADS | Percentage of total reads supporing each alt |
+| VARREADS | List of read count supporting each ALT |
+| PERCVARREADS | Percentage of total reads supporing each ALT |
 | VCF_AAF | ALT allele frequency in vcf samples (from pyvcf) |
 | VCF_FILTER | List of potential fitlers in vcf |
 | VCF_VARTYPE | Variant type (from pyvcf) |
@@ -54,6 +54,8 @@ Each variant will have a row with the following columns:
 | HGVS_EFFECT | Most Severe Consequence reported (from hgvs) |
 | HGVS_AAF | Alternative allele frequency (from hgvs) |
 | HGVS_COLOCVAR | rsID of other known variants at same position (from hgvs) |
+
+Note: annotations corresponding to individual ALTs are stored as lists
 
 ## Dependencies
 
