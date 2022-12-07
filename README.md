@@ -64,3 +64,5 @@ If you would like to run this script in your own environment, ensure you have th
 - pyvcf >= 0.6.8
 - requests >= 2.28.1
 
+## Repo Location:
+https://github.com/MCnu/vcfAnnotatorGRCh37
